@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>More UV Sensitivity Genes</name>
+  <author>alite</author>
+  <packageId>MoreBiotechStyleGenes.UVSensitivity</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  
+  <modDependencies>
+    <li>
+      <packageId>ludeon.rimworld.biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+  </modDependencies>
+
+  <loadAfter>
+    <li>Ludeon.RimWorld.Biotech</li>
+  </loadAfter>
+
+  <description>
+This mod adds 12 new UV related genes, 5 that increase the penalties received while under sunlight, and 7 that give the pawn a bonus while under sunlight that are the reverse of the penalty equivalent. Due to these genes having multiple effects, I have put their effects in a list below. For reference, the vanilla gene Mild UV sensitivity gives Mood -6 and Move Speed 90%, while Intense UV Sensitivity gives Mood -12 and Move Speed 80%.
+
+[url=https://discord.gg/fYP8qkcNDh]Discord link[/url] for those who want an easier way to ask questions, make requests, or just chat. I'll also be posting new releases there.
+
+[url=https://steamcommunity.com/id/alite/myworkshopfiles/?appid=294100]Easy link to all of my Rimworld mods[/url]
+
+Hyper UV Sensitivity - Mood -30, Move Speed 20%
+Super UV Sensitivity - Mood -24, Move Speed 45%
+Extreme UV Sensitivity - Mood -18, Move Speed 65%
+Very Minor UV Sensitivity - Mood -3, Move Speed 95%
+Extremely Minor UV Sensitivity - Mood -2
+Very Minor UV Responsiveness - Mood +2
+Minor UV Responsiveness - Mood +3, Move Speed 105%
+UV Responsiveness - Mood +6, Move Speed 110%
+Major UV Responsiveness - Mood +12, Move Speed 120%
+Minor UV Absorbent - Mood +18, Move Speed 135%
+UV Absorbent - Mood +24, Move Speed 155%
+Major UV Absorbent - Mood +30, Move Speed 180%
+
+Included in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2985153870]More Biotech Style Genes - All in One[/url]
+
+[url=https://github.com/KonradHeinser/MoreUVSensitivityGenes][img]https://i.imgur.com/kTkpTOE.png[/img][/url]
+[url=https://ko-fi.com/alite56114][img]https://i.imgur.com/Utx6OIH.png[/img][/url]
+  </description>
+</ModMetaData>
+
