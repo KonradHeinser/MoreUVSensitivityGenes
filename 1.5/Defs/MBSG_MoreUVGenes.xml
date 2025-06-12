@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef ParentName="UVSensitivityBase">
+    <defName>MBSG_UVSensitivity_Hyper</defName>
+    <label>hyper UV sensitivity</label>
+    <labelShortAdj>UV-vulnerable</labelShortAdj>
+    <description>Carriers of this gene have biological compounds in their skin that react dangerously to UV radiation. They are hyper sensitive to sunlight.</description>
+    <iconPath>UI/Icons/Genes/Gene_IntenseUVSensitivity</iconPath>
+    <displayOrderInCategory>53</displayOrderInCategory>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_InSunlight">
+        <statFactors>
+          <MoveSpeed>0.2</MoveSpeed>
+        </statFactors>
+      </li>
+    </conditionalStatAffecters>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>7</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dark</symbol></li>
+        <li><symbol>tunnel</symbol></li>
+        <li><symbol>under</symbol></li>
+        <li><symbol>cave</symbol></li>
+        <li><symbol>crypt</symbol></li>
+        <li><symbol>dim</symbol></li>
+        <li><symbol>night</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="UVSensitivityBase">
+    <defName>MBSG_UVSensitivity_Super</defName>
+    <label>super UV sensitivity</label>
+    <labelShortAdj>UV-vulnerable</labelShortAdj>
+    <description>Carriers of this gene have biological compounds in their skin that react dangerously to UV radiation. They are super sensitive to sunlight.</description>
+    <iconPath>UI/Icons/Genes/Gene_IntenseUVSensitivity</iconPath>
+    <displayOrderInCategory>52</displayOrderInCategory>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_InSunlight">
+        <statFactors>
+          <MoveSpeed>0.45</MoveSpeed>
+        </statFactors>
+      </li>
+    </conditionalStatAffecters>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>6</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dark</symbol></li>
+        <li><symbol>tunnel</symbol></li>
+        <li><symbol>under</symbol></li>
+        <li><symbol>cave</symbol></li>
+        <li><symbol>crypt</symbol></li>
+        <li><symbol>dim</symbol></li>
+        <li><symbol>night</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="UVSensitivityBase">
+    <defName>MBSG_UVSensitivity_Extreme</defName>
+    <label>extreme UV sensitivity</label>
+    <labelShortAdj>UV-vulnerable</labelShortAdj>
+    <description>Carriers of this gene have biological compounds in their skin that react dangerously to UV radiation. They are extremely sensitive to sunlight.</description>
+    <iconPath>UI/Icons/Genes/Gene_IntenseUVSensitivity</iconPath>
+    <displayOrderInCategory>51</displayOrderInCategory>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_InSunlight">
+        <statFactors>
+          <MoveSpeed>0.65</MoveSpeed>
+        </statFactors>
+      </li>
+    </conditionalStatAffecters>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>5</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dark</symbol></li>
+        <li><symbol>tunnel</symbol></li>
+        <li><symbol>under</symbol></li>
+        <li><symbol>cave</symbol></li>
+        <li><symbol>crypt</symbol></li>
+        <li><symbol>dim</symbol></li>
+        <li><symbol>night</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="UVSensitivityBase">
+    <defName>MBSG_UVSensitivity_VeryMinor</defName>
+    <label>very minor UV sensitivity</label>
+    <labelShortAdj>UV-sensitive</labelShortAdj>
+    <description>Carriers of this gene have biological compounds in their skin that react painfully to UV radiation. They have a very minor sensitivity to sunlight.</description>
+    <iconPath>UI/Icons/Genes/Gene_MildUVSensitivity</iconPath>
+    <displayOrderInCategory>39.9</displayOrderInCategory>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_InSunlight">
+        <statFactors>
+          <MoveSpeed>0.95</MoveSpeed>
+        </statFactors>
+      </li>
+    </conditionalStatAffecters>
+    <biostatMet>2</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dark</symbol></li>
+        <li><symbol>tunnel</symbol></li>
+        <li><symbol>under</symbol></li>
+        <li><symbol>cave</symbol></li>
+        <li><symbol>crypt</symbol></li>
+        <li><symbol>dim</symbol></li>
+        <li><symbol>night</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="UVSensitivityBase">
+    <defName>MBSG_UVSensitivity_ExtremelyMinor</defName>
+    <label>extremely minor UV sensitivity</label>
+    <labelShortAdj>UV-sensitive</labelShortAdj>
+    <description>Carriers of this gene have biological compounds in their skin that react painfully to UV radiation. They have an extremely minor sensitivity to sunlight.</description>
+    <iconPath>UI/Icons/Genes/Gene_MildUVSensitivity</iconPath>
+    <displayOrderInCategory>39.8</displayOrderInCategory>
+    <biostatMet>1</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dark</symbol></li>
+        <li><symbol>tunnel</symbol></li>
+        <li><symbol>under</symbol></li>
+        <li><symbol>cave</symbol></li>
+        <li><symbol>crypt</symbol></li>
+        <li><symbol>dim</symbol></li>
+        <li><symbol>night</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="UVSensitivityBase">
+    <defName>MBSG_UVResponsive_VeryMinor</defName>
+    <label>very minor UV responsiveness</label>
+    <labelShortAdj>UV-responsive</labelShortAdj>
+    <description>Carriers of this gene have biological compounds in their skin that react beneficially to UV radiation. They have an extremely minor responsiveness to sunlight.</description>
+    <iconPath>MBSG/Gene_UVResponsive</iconPath>
+    <displayOrderInCategory>39.7</displayOrderInCategory>
+    <biostatMet>-1</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>bright</symbol></li>
+        <li><symbol>meadow</symbol></li>
+        <li><symbol>over</symbol></li>
+        <li><symbol>plain</symbol></li>
+        <li><symbol>day</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="UVSensitivityBase">
+    <defName>MBSG_UVResponsive_Minor</defName>
+    <label>minor UV responsiveness</label>
+    <labelShortAdj>UV-responsive</labelShortAdj>
+    <description>Carriers of this gene have biological compounds in their skin that react beneficially to UV radiation. They have an minor responsiveness to sunlight.</description>
+    <iconPath>MBSG/Gene_UVResponsive</iconPath>
+    <displayOrderInCategory>39.6</displayOrderInCategory>
+    <biostatMet>-2</biostatMet>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_InSunlight">
+        <statFactors>
+          <MoveSpeed>1.05</MoveSpeed>
+        </statFactors>
+      </li>
+    </conditionalStatAffecters>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>bright</symbol></li>
+        <li><symbol>meadow</symbol></li>
+        <li><symbol>over</symbol></li>
+        <li><symbol>plain</symbol></li>
+        <li><symbol>day</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="UVSensitivityBase">
+    <defName>MBSG_UVResponsive</defName>
+    <label>UV responsiveness</label>
+    <labelShortAdj>UV-responsive</labelShortAdj>
+    <description>Carriers of this gene have biological compounds in their skin that react beneficially to UV radiation. They have a notable responsiveness to sunlight.</description>
+    <iconPath>MBSG/Gene_UVResponsive</iconPath>
+    <displayOrderInCategory>39.5</displayOrderInCategory>
+    <biostatMet>-3</biostatMet>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_InSunlight">
+        <statFactors>
+          <MoveSpeed>1.10</MoveSpeed>
+        </statFactors>
+      </li>
+    </conditionalStatAffecters>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>bright</symbol></li>
+        <li><symbol>meadow</symbol></li>
+        <li><symbol>over</symbol></li>
+        <li><symbol>plain</symbol></li>
+        <li><symbol>day</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="UVSensitivityBase">
+    <defName>MBSG_UVResponsive_Major</defName>
+    <label>major UV responsiveness</label>
+    <labelShortAdj>UV-responsive</labelShortAdj>
+    <description>Carriers of this gene have biological compounds in their skin that react beneficially to UV radiation. They have a major responsiveness to sunlight.</description>
+    <iconPath>MBSG/Gene_UVResponsive</iconPath>
+    <displayOrderInCategory>39.4</displayOrderInCategory>
+    <biostatMet>-4</biostatMet>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_InSunlight">
+        <statFactors>
+          <MoveSpeed>1.20</MoveSpeed>
+        </statFactors>
+      </li>
+    </conditionalStatAffecters>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>bright</symbol></li>
+        <li><symbol>meadow</symbol></li>
+        <li><symbol>over</symbol></li>
+        <li><symbol>plain</symbol></li>
+        <li><symbol>day</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="UVSensitivityBase">
+    <defName>MBSG_UVAbsorbent_Minor</defName>
+    <label>minor UV absorbent</label>
+    <labelShortAdj>UV-absorbent</labelShortAdj>
+    <description>Carriers of this gene have biological compounds in their skin that react beneficially to UV radiation. They have a minor absorbance of sunlight.</description>
+    <iconPath>MBSG/Gene_UVAbsorbent</iconPath>
+    <displayOrderInCategory>39.3</displayOrderInCategory>
+    <biostatMet>-5</biostatMet>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_InSunlight">
+        <statFactors>
+          <MoveSpeed>1.35</MoveSpeed>
+        </statFactors>
+      </li>
+    </conditionalStatAffecters>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>bright</symbol></li>
+        <li><symbol>meadow</symbol></li>
+        <li><symbol>over</symbol></li>
+        <li><symbol>plain</symbol></li>
+        <li><symbol>day</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="UVSensitivityBase">
+    <defName>MBSG_UVAbsorbent</defName>
+    <label>UV absorbent</label>
+    <labelShortAdj>UV-absorbent</labelShortAdj>
+    <description>Carriers of this gene have biological compounds in their skin that react beneficially to UV radiation. They have a notable absorbance of sunlight.</description>
+    <iconPath>MBSG/Gene_UVAbsorbent</iconPath>
+    <displayOrderInCategory>39.2</displayOrderInCategory>
+    <biostatMet>-6</biostatMet>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_InSunlight">
+        <statFactors>
+          <MoveSpeed>1.55</MoveSpeed>
+        </statFactors>
+      </li>
+    </conditionalStatAffecters>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>bright</symbol></li>
+        <li><symbol>meadow</symbol></li>
+        <li><symbol>over</symbol></li>
+        <li><symbol>plain</symbol></li>
+        <li><symbol>day</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="UVSensitivityBase">
+    <defName>MBSG_UVAbsorbent_Major</defName>
+    <label>major UV absorbent</label>
+    <labelShortAdj>UV-absorbent</labelShortAdj>
+    <description>Carriers of this gene have biological compounds in their skin that react beneficially to UV radiation. They have a major absorbance of sunlight.</description>
+    <iconPath>MBSG/Gene_UVAbsorbent</iconPath>
+    <displayOrderInCategory>39.1</displayOrderInCategory>
+    <biostatMet>-7</biostatMet>
+    <conditionalStatAffecters>
+      <li Class="ConditionalStatAffecter_InSunlight">
+        <statFactors>
+          <MoveSpeed>1.80</MoveSpeed>
+        </statFactors>
+      </li>
+    </conditionalStatAffecters>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>bright</symbol></li>
+        <li><symbol>meadow</symbol></li>
+        <li><symbol>over</symbol></li>
+        <li><symbol>plain</symbol></li>
+        <li><symbol>day</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+</Defs>
