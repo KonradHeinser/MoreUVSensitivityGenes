@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-    <Operation Class="PatchOperationSequence" MayRequire="sarg.alphagenes">
-        <operations>
-            <li Class="PatchOperationAdd" MayRequire="sarg.alphagenes">
-                <xpath>/Defs/GeneDef[defName="AG_UVSensitivity_Minor"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
-			    <value>
-				    <hideGene>true</hideGene>
-			    </value>
-            </li>
-
-            <li Class="PatchOperationReplace" MayRequire="sarg.alphagenes">
-                <xpath>/Defs/XenotypeDef/genes/li[text()="AG_UVSensitivity_Minor"]</xpath>
-                <value>
-                    <li>MBSG_UVSensitivity_VeryMinor</li>
-                </value>
-            </li>
-        </operations>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/GeneDef[defName="AG_UVSensitivity_Minor"]</xpath>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/GeneDef[defName="AG_UVSensitivity_Minor"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+            <value>
+                <hideGene>true</hideGene>
+            </value>
+        </match>
     </Operation>
 </Patch>
