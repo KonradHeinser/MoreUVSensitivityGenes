@@ -3,7 +3,7 @@
     <Operation Class="PatchOperationConditional">
         <xpath>Defs/GeneDef[defName="AG_UVSensitivity_Minor"]</xpath>
         <match Class="PatchOperationAdd">
-            <xpath>/Defs/GeneDef[defName="AG_UVSensitivity_Minor"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+            <xpath>Defs/GeneDef[defName="AG_UVSensitivity_Minor"]/modExtensions/li[@Class="VEF.Genes.GeneExtension"]</xpath>
             <value>
                 <hideGene>true</hideGene>
             </value>
