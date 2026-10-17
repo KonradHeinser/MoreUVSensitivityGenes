@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThoughtDef>
+    <defName>MBSG_Sensitivity_Hyper</defName>
+    <workerClass>ThoughtWorker_InSunlight</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>MBSG_UVSensitivity_Hyper</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>sunlight sensitivity</label>
+        <description>The sun hurts my eyes.</description>
+        <baseMoodEffect>-30</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MBSG_Sensitivity_Super</defName>
+    <workerClass>ThoughtWorker_InSunlight</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>MBSG_UVSensitivity_Super</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>sunlight sensitivity</label>
+        <description>The sun hurts my eyes and my skin is tingling unpleasantly.</description>
+        <baseMoodEffect>-24</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MBSG_Sensitivity_Extreme</defName>
+    <workerClass>ThoughtWorker_InSunlight</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>MBSG_UVSensitivity_Extreme</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>sunlight sensitivity</label>
+        <description>The sun hurts my eyes and my skin is tingling unpleasantly.</description>
+        <baseMoodEffect>-18</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MBSG_Sensitivity_VeryMinor</defName>
+    <workerClass>ThoughtWorker_InSunlight</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>MBSG_UVSensitivity_VeryMinor</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>sunlight sensitivity</label>
+        <description>The sun hurts my eyes and my skin is tingling unpleasantly.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MBSG_Sensitivity_ExtremelyMinor</defName>
+    <workerClass>ThoughtWorker_InSunlight</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>MBSG_UVSensitivity_ExtremelyMinor</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>sunlight sensitivity</label>
+        <description>The sun hurts my eyes.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MBSG_Responsive_VeryMinor</defName>
+    <workerClass>ThoughtWorker_InSunlight</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>MBSG_UVResponsive_VeryMinor</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>sunlight responsive</label>
+        <description>The sun is soothing to my mind.</description>
+        <baseMoodEffect>+2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MBSG_Responsive_Minor</defName>
+    <workerClass>ThoughtWorker_InSunlight</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>MBSG_UVResponsive_Minor</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>sunlight responsive</label>
+        <description>The sun is soothing to my mind and I feel more a little more energetic.</description>
+        <baseMoodEffect>+3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MBSG_Responsive</defName>
+    <workerClass>ThoughtWorker_InSunlight</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>MBSG_UVResponsive</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>sunlight responsive</label>
+        <description>The sun is soothing to my mind and I feel more more energetic.</description>
+        <baseMoodEffect>+6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MBSG_Responsive_Major</defName>
+    <workerClass>ThoughtWorker_InSunlight</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>MBSG_UVResponsive_Major</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>sunlight responsive</label>
+        <description>The sun is soothing to my mind and I feel more a lot more energetic.</description>
+        <baseMoodEffect>+12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MBSG_Absorbent_Minor</defName>
+    <workerClass>ThoughtWorker_InSunlight</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>MBSG_UVAbsorbent_Minor</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>sunlight absorbant</label>
+        <description>The sun is soothing to my mind and I can feel it enhancing my muscles.</description>
+        <baseMoodEffect>+18</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MBSG_Absorbent</defName>
+    <workerClass>ThoughtWorker_InSunlight</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>MBSG_UVAbsorbent</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>sunlight absorbant</label>
+        <description>The sun is soothing to my mind and I can feel it enhancing my muscles.</description>
+        <baseMoodEffect>+24</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MBSG_Absorbent_Major</defName>
+    <workerClass>ThoughtWorker_InSunlight</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+      <li>MBSG_UVAbsorbent_Major</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>sunlight absorbant</label>
+        <description>The sun is soothing to my mind and I can feel it enhancing my muscles.</description>
+        <baseMoodEffect>+30</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>
