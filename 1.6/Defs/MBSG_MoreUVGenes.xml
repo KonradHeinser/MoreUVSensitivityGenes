@@ -143,6 +143,7 @@
     <description>Carriers of this gene have biological compounds in their skin that react beneficially to UV radiation. They have an extremely minor responsiveness to sunlight.</description>
     <iconPath>MBSG/Gene_UVResponsive</iconPath>
     <displayOrderInCategory>39.7</displayOrderInCategory>
+    <dislikesSunlight>False</dislikesSunlight>
     <biostatMet>-1</biostatMet>
     <symbolPack>
       <prefixSymbols>
@@ -162,6 +163,7 @@
     <description>Carriers of this gene have biological compounds in their skin that react beneficially to UV radiation. They have an minor responsiveness to sunlight.</description>
     <iconPath>MBSG/Gene_UVResponsive</iconPath>
     <displayOrderInCategory>39.6</displayOrderInCategory>
+    <dislikesSunlight>False</dislikesSunlight>
     <biostatMet>-2</biostatMet>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_InSunlight">
@@ -188,6 +190,7 @@
     <description>Carriers of this gene have biological compounds in their skin that react beneficially to UV radiation. They have a notable responsiveness to sunlight.</description>
     <iconPath>MBSG/Gene_UVResponsive</iconPath>
     <displayOrderInCategory>39.5</displayOrderInCategory>
+    <dislikesSunlight>False</dislikesSunlight>
     <biostatMet>-3</biostatMet>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_InSunlight">
@@ -214,6 +217,7 @@
     <description>Carriers of this gene have biological compounds in their skin that react beneficially to UV radiation. They have a major responsiveness to sunlight.</description>
     <iconPath>MBSG/Gene_UVResponsive</iconPath>
     <displayOrderInCategory>39.4</displayOrderInCategory>
+    <dislikesSunlight>False</dislikesSunlight>
     <biostatMet>-4</biostatMet>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_InSunlight">
@@ -240,6 +244,7 @@
     <description>Carriers of this gene have biological compounds in their skin that react beneficially to UV radiation. They have a minor absorbance of sunlight.</description>
     <iconPath>MBSG/Gene_UVAbsorbent</iconPath>
     <displayOrderInCategory>39.3</displayOrderInCategory>
+    <dislikesSunlight>False</dislikesSunlight>
     <biostatMet>-5</biostatMet>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_InSunlight">
@@ -266,6 +271,7 @@
     <description>Carriers of this gene have biological compounds in their skin that react beneficially to UV radiation. They have a notable absorbance of sunlight.</description>
     <iconPath>MBSG/Gene_UVAbsorbent</iconPath>
     <displayOrderInCategory>39.2</displayOrderInCategory>
+    <dislikesSunlight>False</dislikesSunlight>
     <biostatMet>-6</biostatMet>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_InSunlight">
@@ -292,6 +298,7 @@
     <description>Carriers of this gene have biological compounds in their skin that react beneficially to UV radiation. They have a major absorbance of sunlight.</description>
     <iconPath>MBSG/Gene_UVAbsorbent</iconPath>
     <displayOrderInCategory>39.1</displayOrderInCategory>
+    <dislikesSunlight>False</dislikesSunlight>
     <biostatMet>-7</biostatMet>
     <conditionalStatAffecters>
       <li Class="ConditionalStatAffecter_InSunlight">
